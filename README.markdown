@@ -64,7 +64,7 @@ Methods are written in **PascalCase**. For example `DoSomething()`.
 
 ### Fields
 
-All non-static, non-private fields are written **camelCase**. Per Unity convention, this includes **public fields** as well.
+All non-static fields are written **camelCase** per Unity convention.  This includes private class instance fields as well since Unity removes "-" underscores from serialized variables in the inspector.
 
 For example:
 
@@ -197,8 +197,6 @@ IRadialSlider
 ```
 
 ## Spacing
-
-Spacing is especially important in raywenderlich.com code, as code needs to be easily readable as part of the tutorial. 
 
 ### Indentation
 
